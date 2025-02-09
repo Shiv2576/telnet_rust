@@ -8,11 +8,11 @@ This a Simple Netcat client implementation in Rust using std libs
 To run tests, run the following command on different terminal sessions.
 
 ```bash
-   Cargo r server
+   cargo r server
 ```
 
 ```bash
-   Cargo r client
+   cargo r client
 ```
 
 
