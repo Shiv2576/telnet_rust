@@ -1,0 +1,17 @@
+[package]
+name = "rtelnet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# Command line argument parsing.
+clap = { version = "4.4.13", features = ["derive"] }
+
+# Pretty logging.
+femme = { version = "2.2.1" }
+log = { version = "0.4.20" }
+
+# Colorization and ANSI escape sequence codes.
+r3bl_tui = { version = "0.6.0" }
+r3bl_ansi_color = { version = "0.7.0" }
